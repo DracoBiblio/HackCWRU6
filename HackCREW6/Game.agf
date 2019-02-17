@@ -637,6 +637,10 @@
             <Number>1</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2088,16 +2092,16 @@
         <Characters>
           <Character>
             <ID>0</ID>
-            <ScriptName>cEgo</ScriptName>
-            <RealName>Roger</RealName>
+            <ScriptName>cFfion</ScriptName>
+            <RealName>Ffion</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>127</StartX>
-            <StartY>142</StartY>
+            <StartX>171</StartX>
+            <StartY>168</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -3346,24 +3350,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
